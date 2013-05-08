@@ -1,0 +1,8 @@
+= white_list_formatted_content Gem
+This is the Gem version of white_list_formatted_content Plugin (https://github.com/bhedana/white_list_formatted_content)
+
+It is used to format content created by white_list Gem (https://github.com/quyen/white_list.git)
+
+== Install
+Put this line into Gemfile:
+  gem 'white_list', :git => "git://github.com/quyen/white_list_formatted_content.git"
