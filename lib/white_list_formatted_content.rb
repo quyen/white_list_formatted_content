@@ -1,4 +1,5 @@
 require 'RedCloth'
+require 'white_list_helper'
 
 ActiveRecord::Base.class_eval do
   include ActionView::Helpers::TagHelper, ActionView::Helpers::TextHelper, WhiteListHelper
